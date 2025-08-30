@@ -90,62 +90,10 @@
 
         FUNCTION {
             bindings = <
-&kp Q             &kp W         &kp E                        &kp R        &kp T                          &trans         &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &lt 5 I    &kp P          &trans  &kp P
+&kp Q             &kp W         &kp E                        &kp R        &kp T                          &trans         &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &lt 0 I    &kp P          &trans  &kp P
 &kp A             &kp S         &kp D                        &kp F        &kp G                          &kp LS(LG(S))  &trans     &kp Y         &kp U         &kp I         &kp O      &kp SEMICOLON  &trans  &kp SQT
 &mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V        &kp B                          &kp COLON      &trans     &kp H         &kp J         &kp K         &kp L      &kp PERIOD     &trans  &kp DELETE
-&kp LEFT_WIN      &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &trans         &kp B      &kp B         &kp N         &kp M         &kp COMMA  &trans         &trans  &kp ENTER
-&trans            &trans        &trans                       &trans       &trans                         &kp DEL        &kp ENTER
-            >;
-        };
-
-        NUM {
-            bindings = <
-&kp Q             &kp W         &kp E                        &kp R        &kp T                          &trans         &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &lt 5 I    &kp P          &trans  &kp P
-&kp A             &kp S         &kp D                        &kp F        &kp G                          &kp LS(LG(S))  &trans     &kp Y         &kp U         &kp I         &kp O      &kp SEMICOLON  &trans  &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V        &kp B                          &kp COLON      &trans     &kp H         &kp J         &kp K         &kp L      &kp PERIOD     &trans  &kp DELETE
-&kp LEFT_WIN      &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &trans         &kp B      &kp B         &kp N         &kp M         &kp COMMA  &trans         &trans  &kp ENTER
-&trans            &trans        &trans                       &trans       &trans                         &kp DEL        &kp ENTER
-            >;
-        };
-
-        ARROW {
-            bindings = <
-&kp Q             &kp W         &kp E                        &kp R        &kp T                          &trans         &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &lt 5 I    &kp P          &trans  &kp P
-&kp A             &kp S         &kp D                        &kp F        &kp G                          &kp LS(LG(S))  &trans     &kp Y         &kp U         &kp I         &kp O      &kp SEMICOLON  &trans  &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V        &kp B                          &kp COLON      &trans     &kp H         &kp J         &kp K         &kp L      &kp PERIOD     &trans  &kp DELETE
-&kp LEFT_WIN      &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &trans         &kp B      &kp B         &kp N         &kp M         &kp COMMA  &trans         &trans  &kp ENTER
-&trans            &trans        &trans                       &trans       &trans                         &kp DEL        &kp ENTER
-            >;
-
-            sensor-bindings = <&inc_dec_kp LC(PAGE_UP) LC(PAGE_DOWN)>;
-        };
-
-        MOUSE {
-            bindings = <
-&kp Q             &kp W         &kp E                        &kp R        &kp T                          &trans         &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &lt 5 I    &kp P          &trans  &kp P
-&kp A             &kp S         &kp D                        &kp F        &kp G                          &kp LS(LG(S))  &trans     &kp Y         &kp U         &kp I         &kp O      &kp SEMICOLON  &trans  &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V        &kp B                          &kp COLON      &trans     &kp H         &kp J         &kp K         &kp L      &kp PERIOD     &trans  &kp DELETE
-&kp LEFT_WIN      &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &trans         &kp B      &kp B         &kp N         &kp M         &kp COMMA  &trans         &trans  &kp ENTER
-&trans            &trans        &trans                       &trans       &trans                         &kp DEL        &kp ENTER
-            >;
-        };
-
-        SCROLL {
-            bindings = <
-&kp Q             &kp W         &kp E                        &kp R        &kp T                          &trans         &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &lt 5 I    &kp P          &trans  &kp P
-&kp A             &kp S         &kp D                        &kp F        &kp G                          &kp LS(LG(S))  &trans     &kp Y         &kp U         &kp I         &kp O      &kp SEMICOLON  &trans  &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V        &kp B                          &kp COLON      &trans     &kp H         &kp J         &kp K         &kp L      &kp PERIOD     &trans  &kp DELETE
-&kp LEFT_WIN      &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &trans         &kp B      &kp B         &kp N         &kp M         &kp COMMA  &trans         &trans  &kp ENTER
-&trans            &trans        &trans                       &trans       &trans                         &kp DEL        &kp ENTER
-            >;
-        };
-
-        layer_6 {
-            bindings = <
-&kp Q             &kp W         &kp E                        &kp R        &kp T                          &trans         &trans     &kp NUMBER_6  &kp NUMBER_7  &kp NUMBER_8  &lt 5 I    &kp P          &trans  &kp P
-&kp A             &kp S         &kp D                        &kp F        &kp G                          &kp LS(LG(S))  &trans     &kp Y         &kp U         &kp I         &kp O      &kp SEMICOLON  &trans  &kp SQT
-&mt LEFT_SHIFT Z  &kp X         &kp C                        &kp V        &kp B                          &kp COLON      &trans     &kp H         &kp J         &kp K         &kp L      &kp PERIOD     &trans  &kp DELETE
-&kp LEFT_WIN      &kp LEFT_ALT  &lt_to_layer_0 6 INT_HENKAN  &lt 2 SPACE  &lt_to_layer_0 3 INT_MUHENKAN  &trans         &kp B      &kp B         &kp N         &kp M         &kp COMMA  &trans         &trans  &kp ENTER
+&kp LEFT_WIN      &kp LEFT_ALT  &lt_to_layer_0 0 INT_HENKAN  &lt 0 SPACE  &lt_to_layer_0 0 INT_MUHENKAN  &trans         &kp B      &kp B         &kp N         &kp M         &kp COMMA  &trans         &trans  &kp ENTER
 &trans            &trans        &trans                       &trans       &trans                         &kp DEL        &kp ENTER
             >;
         };
