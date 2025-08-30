@@ -78,7 +78,7 @@
             , <&key_physical_attrs 100 100 1034  555 (-2700)     0     0>
             ;
     };
-};
+
 
 
     default_transform: keymap_transform_0 {
@@ -114,7 +114,7 @@
         compatible = "zmk,input-listener";
         status = "disabled";
     };
-
+};
 &spi0 {
     status = "disabled";
 
