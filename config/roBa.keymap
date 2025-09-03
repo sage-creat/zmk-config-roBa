@@ -83,7 +83,7 @@
 &kp LSHIFT      &bt BT_NXT     &kp Q         &kp NUMBER_2  &kp E          &kp F            &kp T           &kp Y         &kp U         &kp I         &kp O      &kp P          &kp RIGHT_BRACKET  &kp LEFT_BRACKET
 &kp LCTRL       &kp LALT       &kp A         &kp S         &kp D          &kp R            &kp G           &kp H         &kp J         &kp K         &kp L      &kp SEMICOLON  &lt 1 KP_ENTER     &kp SQT
 &kp UP_ARROW    &kp LEFT_WIN   &kp GRAVE     &kp Z         &kp X          &kp C            &kp V           &kp B         &kp N         &kp M         &kp COMMA  &kp PERIOD     &kp BACKSPACE      &kp SLASH
-&kp KP_ENTER    &bt BT_PRV     &kp TAB       &kp SPACE     &kp LA(GRAVE)  &kp RIGHT_ARROW  &kp LEFT_ARROW
+&kp SCROLLLOCK  &bt BT_PRV     &kp TAB       &kp SPACE     &kp LA(GRAVE)  &kp RIGHT_ARROW  &kp LEFT_ARROW
             >;
 
             sensor-bindings = <&inc_dec_kp PG_UP PAGE_DOWN>;
@@ -97,6 +97,8 @@
 &kp KP_NUMBER_2  &kp KP_NUMBER_1  &kp MINUS        &trans  &trans  &trans   &trans     &kp LEFT_ARROW  &kp DOWN_ARROW  &kp RIGHT_ARROW  &trans  &trans  &trans  &trans
 &trans           &kp ASTERISK     &trans           &trans  &trans  &kp DOT  &kp SLASH
             >;
+
+            sensor-bindings = <&inc_dec_kp 0 0>;
         };
 
         layer_2 {
