@@ -7,8 +7,8 @@ manifest:
   projects:
     - name: zmk
       remote: zmkfirmware
-      # 【ここを修正】v0.3-branch から main に戻します
-      revision: main
+      # 【修正】main から v0.3-branch に戻します
+      revision: v0.3-branch
       import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
