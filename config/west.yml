@@ -8,10 +8,8 @@ manifest:
     - name: zmk
       remote: zmkfirmware
       revision: v0.3-branch
-      # 【ここを修正】zmk側の v0.3-branch の west.yml を読み込むように固定します
-      import: 
-        name: app/west.yml
-  map:
+      # 1行でシンプルに指定する書き方に変更します
+      import: app/west.yml
     - name: zmk-pmw3610-driver
       remote: kumamuk-git
       revision: main
