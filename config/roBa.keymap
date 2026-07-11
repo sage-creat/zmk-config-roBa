@@ -124,11 +124,11 @@
 
         layer_4 {
             bindings = <
-&trans        &trans        &trans        &trans        &trans  &trans  &kp ESC  &trans  &trans  &trans  &trans  &trans         &trans             &trans
-&trans        &trans        &kp Q         &kp NUMBER_2  &kp E   &kp F   &kp T    &kp Y   &kp U   &kp I   &kp O   &kp P          &kp RIGHT_BRACKET  &kp LEFT_BRACKET
-&kp LCTRL     &kp LALT      &kp A         &kp S         &kp D   &kp R   &kp G    &kp H   &kp J   &kp K   &kp L   &kp SEMICOLON  &kp NUMBER_4       &kp SQT
-&kp UP_ARROW  &kp LEFT_WIN  &kp GRAVE     &kp Z         &kp X   &kp C   &kp V    &kp B   &kp N   &kp M   &trans  &trans         &kp NUMBER_5       &trans
-&kp NUMBER_3  &to 0         &kp NUMBER_2  &kp NUMBER_1  &trans  &trans  &trans
+&trans        &trans        &trans        &trans        &trans  &kp TAB  &kp ESC  &trans  &trans  &trans  &trans  &trans         &trans             &trans
+&trans        &trans        &kp Q         &kp NUMBER_2  &kp E   &kp F    &kp T    &kp Y   &kp U   &kp I   &kp O   &kp P          &kp RIGHT_BRACKET  &kp LEFT_BRACKET
+&kp LCTRL     &kp LALT      &kp A         &kp S         &kp D   &kp R    &kp G    &kp H   &kp J   &kp K   &kp L   &kp SEMICOLON  &kp NUMBER_4       &kp SQT
+&kp UP_ARROW  &kp LEFT_WIN  &kp GRAVE     &kp Z         &kp X   &kp C    &kp V    &kp B   &kp N   &kp M   &trans  &trans         &kp NUMBER_5       &trans
+&kp NUMBER_3  &to 0         &kp NUMBER_2  &kp NUMBER_1  &trans  &trans   &trans
             >;
         };
     };
